@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr" xmlns:th="http://www.thymeleaf.org">
+<head><meta charset="UTF-8"><title>Plat - Cantine Scolaire</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+<link href="/css/app.css" rel="stylesheet"></head>
+<body class="bg-light">
+<div th:insert="~{fragments/navbar :: navbar}"></div>
+<div th:insert="~{fragments/sidebar :: sidebar}"></div>
+<main class="main-content">
+<div class="container-fluid py-4">
+    <div class="row justify-content-center">
+        <div class="col-xl-7">
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <h1 class="h3 fw-bold"><i class="bi bi-egg-fried text-primary me-2"></i><span th:text="${plat.id != null} ? 'Modifier Plat' : 'Nouveau Plat'"></span></h1>
+                <a href="/plats" class="btn btn-outline-secondary"><i class="bi bi-arrow-left me-1"></i>Retour</a>
+            </div>
+            <div class="card border-0 shadow-sm">
+                <div class="card-body p-4">
+                    <form th:action="${plat.id != null} ? @{/plats/{id}/edit(id=${plat.id})} : @{/plats/new}"
+                          th:object="${plat}" method="post" enctype="multipart/form-data">
+                        <div class="row g-3">
+                            <div class="col-12">
+                                <label class="form-label fw-semibold">Nom du Plat *</label>
+                                <input type="text" th:field="*{nom}" class="form-control" placeholder="Ex: Couscous au poulet" th:classappend="${#fields.hasErrors('nom')} ? 'is-invalid'">
+                                <div class="invalid-feedback" th:errors="*{nom}"></div>
+                            </div>
+                            <div class="col-12">
+                                <label class="form-label fw-semibold">Description</label>
+                                <textarea th:field="*{description}" class="form-control" rows="3" placeholder="Description du plat..."></textarea>
+                            </div>
+                            <div class="col-md-6">
+                                <label class="form-label fw-semibold">Prix (MAD) *</label>
+                                <input type="number" th:field="*{prix}" class="form-control" step="0.01" min="0" placeholder="0.00" th:classappend="${#fields.hasErrors('prix')} ? 'is-invalid'">
+                                <div class="invalid-feedback" th:errors="*{prix}"></div>
+                            </div>
+                            <div class="col-md-6">
+                                <label class="form-label fw-semibold">Image du Plat</label>
+                                <input type="file" name="imageFile" class="form-control" accept="image/*">
+                                <div th:if="${plat.image != null}" class="mt-2">
+                                    <img th:src="@{/uploads/{img}(img=${plat.image})}" height="80" class="rounded" alt="Image actuelle">
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-check form-switch">
+                                    <input type="checkbox" th:field="*{disponible}" class="form-check-input" role="switch">
+                                    <label class="form-check-label fw-semibold">Plat disponible</label>
+                                </div>
+                            </div>
+                            <div class="col-12 d-flex gap-2 justify-content-end">
+                                <a href="/plats" class="btn btn-outline-secondary">Annuler</a>
+                                <button type="submit" class="btn btn-primary px-4"><i class="bi bi-floppy me-1"></i>Enregistrer</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</main>
+<div th:insert="~{fragments/footer :: footer}"></div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body></html>
