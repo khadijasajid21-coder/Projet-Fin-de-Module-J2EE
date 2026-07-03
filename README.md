@@ -1,3 +1,5 @@
+
+
 1.	Introduction
 
 Ce document présente l'architecture et la conception technique de la plateforme de gestion de cantine scolaire. Le système a pour objectif de digitaliser l'ensemble du processus de restauration scolaire : consultation des menus, précommande des repas par les étudiants depuis une application mobile Android, et pilotage opérationnel (validation, préparation, service) par les agents et administrateurs de la cantine depuis une interface web.
@@ -117,4 +119,8 @@ La plateforme développée répond aux besoins fonctionnels identifiés pour la 
 [rapport-cantine-scolaire.pdf](https://github.com/user-attachments/files/29629687/rapport-cantine-scolaire.pdf)
 Pesentation sur le projet:
 [Uploading Presentation.pptx…]()
+
+
+https://github.com/user-attachments/assets/0c76cc69-5af5-40e9-ba4d-e9c0d4c6ce96
+
 
