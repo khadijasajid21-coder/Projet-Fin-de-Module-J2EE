@@ -1,21 +1,4 @@
-<img width="302" height="315" alt="image" src="https://github.com/user-attachments/assets/6d8f972f-3d84-4ce6-ac88-e0f7cddb042a" />
-<img width="306" height="333" alt="image" src="https://github.com/user-attachments/assets/1bdcb079-4daf-4d76-ab58-730cf1a6b331" />
-<img width="311" height="381" alt="image" src="https://github.com/user-attachments/assets/e58808c6-5a61-45c4-a4fb-b8bb45a915e0" />
-<img width="266" height="381" alt="image" src="https://github.com/user-attachments/assets/4520205c-1cbe-4913-96c1-3e9600c107f9" />
-<img width="277" height="368" alt="image" src="https://github.com/user-attachments/assets/788b15d8-9f4e-460c-ae81-37f188f1de40" />
-<img width="280" height="363" alt="image" src="https://github.com/user-attachments/assets/dd5ee2d7-34c0-4314-926e-b89ac85109d6" />
-<img width="265" height="330" alt="image" src="https://github.com/user-attachments/assets/82cc1c7b-75d9-40eb-b41f-1a2eff880f50" />
-<img width="289" height="407" alt="image" src="https://github.com/user-attachments/assets/edebec69-a3f0-47d5-aac4-a7730653ac8d" />
-<img width="287" height="205" alt="image" src="https://github.com/user-attachments/assets/3aeb8399-cdf8-4f63-977a-a0fb0c2bc261" />
-<img width="277" height="402" alt="image" src="https://github.com/user-attachments/assets/28e3cdac-6976-4592-8f7b-d9acee7d64c4" />
-<img width="260" height="366" alt="image" src="https://github.com/user-attachments/assets/d86e37bd-ae52-4a95-9e83-c3d78b00b53a" />
-<img width="289" height="369" alt="image" src="https://github.com/user-attachments/assets/214c8ef5-f37c-47bb-8ccb-02a7933ea858" />
-<img width="268" height="321" alt="image" src="https://github.com/user-attachments/assets/3f95ec03-0adc-4311-9c47-8e577c5502d4" />
-<img width="276" height="314" alt="image" src="https://github.com/user-attachments/assets/9146b308-126d-4c06-ac5c-cf01554afd36" />
-<img width="270" height="388" alt="image" src="https://github.com/user-attachments/assets/5f3a47e7-faec-43a0-b53b-91530647917d" />
-<img width="272" height="384" alt="image" src="https://github.com/user-attachments/assets/dfeda5bb-c436-4bd1-9f22-40f71422ed00" />
-<img width="270" height="389" alt="image" src="https://github.com/user-attachments/assets/fe8edbdc-cfad-4460-b326-e7dc240e45c4" />
-<img width="268" height="405" alt="image" src="https://github.com/user-attachments/assets/67544b26-b8a6-40e3-be61-f66e4ef9ad94" />
-<img width="291" height="343" alt="image" src="https://github.com/user-attachments/assets/2156403a-0d2b-4827-b12e-5fbe11bc958c" />
-<img width="290" height="307" alt="image" src="https://github.com/user-attachments/assets/b1238145-1fee-4a5c-8c42-33b52cd08994" />
-<img width="288" height="118" alt="image" src="https://github.com/user-attachments/assets/cf355cbd-c0e2-4d16-a25a-f7fbe7af5a3e" />
+[rapport-cantine-scolaire.pdf](https://github.com/user-attachments/files/29629687/rapport-cantine-scolaire.pdf)
+Pesentation sur le projet:
+[Uploading Presentation.pptx…]()
+
